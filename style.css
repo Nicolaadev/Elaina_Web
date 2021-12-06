@@ -295,9 +295,9 @@ section .title::after{
     width: calc(40% - 50px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
+
     padding: 50px 25px;
-    cursor: pointer;
+    
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
