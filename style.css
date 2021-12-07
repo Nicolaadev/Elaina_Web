@@ -44,7 +44,6 @@ section{
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
-    
 }
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
@@ -54,9 +53,9 @@ section{
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
-
+    flex-wrap: wrap;
     align-items: center;
-
+    justify-content: space-between;
 }
 section .title{
     position: relative;
@@ -292,12 +291,12 @@ section .title::after{
 
 }
 .services .serv-content .card{
-    width: calc(40% - 50px);
+    width: calc(33% - 20px);
     background: #222;
     text-align: center;
-
+    border-radius: 6px;
     padding: 50px 25px;
-    
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
@@ -698,4 +697,3 @@ footer span a:hover{
         line-height: 38px;
     }
 }
-
