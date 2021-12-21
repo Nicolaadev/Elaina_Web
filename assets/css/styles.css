@@ -7,8 +7,8 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 152;
-  --first-color: hsl(var(--hue), 24%, 32%);
+  --hue: 217;
+  --first-color: hsl(var(--hue), 5%, 69%);
   --first-color-alt: hsl(var(--hue), 24%, 28%);
   --first-color-light: hsl(var(--hue), 24%, 66%);
   --first-color-lighten: hsl(var(--hue), 24%, 92%);
@@ -494,7 +494,7 @@ the website, in dark theme
 }
 
 .steps__card:hover .steps__card-number{
-  transform: translateY(-.25rem);
+  transform: translateY(-.2rem);
 }
 
 /*=============== PRODUCTS ===============*/
