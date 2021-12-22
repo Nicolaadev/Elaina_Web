@@ -8,14 +8,14 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 217;
-  --first-color: hsl(var(--hue), 5%, 69%);
-  --first-color-alt: hsl(var(--hue), 24%, 28%);
-  --first-color-light: hsl(var(--hue), 24%, 66%);
-  --first-color-lighten: hsl(var(--hue), 24%, 92%);
-  --title-color: hsl(var(--hue), 4%, 15%);
-  --text-color: hsl(var(--hue), 4%, 35%);
-  --text-color-light: hsl(var(--hue), 4%, 55%);
-  --body-color: hsl(var(--hue), 0%, 100%);
+  --first-color: #5865F2;/*button color*/
+  --first-color-alt:  #4852c5;
+  --first-color-light: #23272A;
+  --first-color-lighten: #23272A;
+  --title-color: #fff;
+  --text-color: #fff;
+  --text-color-light: #fff;
+  --body-color: #23272A;
   --container-color: #FFF;
 
   /*========== Font and typography ==========*/
@@ -578,8 +578,12 @@ the website, in dark theme
 }
 
 .questions__item{
-  background-color: var(--container-color);
+  background-color: #4e545a; /*container color*/
   border-radius: .25rem;
+}
+
+.questions__item:hover{
+  background-color: #464b54;
 }
 
 .questions__item-title{
@@ -589,7 +593,7 @@ the website, in dark theme
 
 .questions__icon{
   font-size: 1.25rem;
-  color: var(--title-color);
+  color: #000; /* button color + - */
 }
 
 .questions__description{
