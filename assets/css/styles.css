@@ -8,7 +8,7 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 217;
-  --first-color: #5865F2;/*button color*/
+  --first-color: #464b54;/*button color*/
   --first-color-alt:  #4852c5;
   --first-color-light: #23272A;
   --first-color-lighten: #23272A;
@@ -353,7 +353,7 @@ the website, in dark theme
 /*=============== BUTTONS ===============*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: #5865F2;
   color: #FFF;
   padding: 1rem 1.75rem;
   border-radius: .5rem;
@@ -537,7 +537,7 @@ the website, in dark theme
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: #5865F2;
   color: #FFF;
   padding: .25rem;
   border-radius: .35rem;
@@ -568,18 +568,18 @@ the website, in dark theme
 }
 
 .questions__container{
-  gap: 1.5rem;
-  padding: 1.5rem 0;
+  gap: 1rem;
+  padding: 1.5rem 0; /* | */
 }
 
 .questions__group{
   display: grid;
-  row-gap: 1.5rem;
+  row-gap: 1.5rem; /* --- */
 }
 
 .questions__item{
   background-color: #4e545a; /*container color*/
-  border-radius: .25rem;
+  border-radius: .15rem; /* container */
 }
 
 .questions__item:hover{
