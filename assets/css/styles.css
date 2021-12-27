@@ -263,7 +263,7 @@ the website, in dark theme
 }
 
 .nav__link{
-  color: #23272A;
+  color: #fff;
   font-weight: var(--font-medium);
   transition: .3s;
 }
