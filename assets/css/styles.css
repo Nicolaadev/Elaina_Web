@@ -235,7 +235,7 @@ the website, in dark theme
 @media screen and (max-width: 767px){
   .nav__menu{
     position: fixed;
-    background-color: var(--container-color);
+    background-color: #2C2F33;
     width: 80%;
     height: 100%;
     top: 0;
@@ -1078,4 +1078,6 @@ the website, in dark theme
     right: 3rem;
   }
 }
+
+
 
