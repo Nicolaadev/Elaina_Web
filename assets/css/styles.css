@@ -263,7 +263,7 @@ the website, in dark theme
 }
 
 .nav__link{
-  color: var(--title-color);
+  color: #23272A;
   font-weight: var(--font-medium);
   transition: .3s;
 }
@@ -1078,3 +1078,4 @@ the website, in dark theme
     right: 3rem;
   }
 }
+
