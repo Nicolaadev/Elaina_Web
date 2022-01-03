@@ -10,13 +10,51 @@
         <!--=============== REMIX ICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
+        
+
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Elaina</title>
     </head>
     <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Elaina
+                </a>
 
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="commands.html" target = "_black "class="nav__link">Commands</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://discord.gg/W6FfCHPNGq" target = "_black "class="nav__link">Support</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
 
 <!--==================== QUESTIONS ====================-->
             <section class="questions section" id="Commands">
@@ -40,23 +78,21 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="questions__group">
-                        <div class="questions__item">
-                            <header class="questions__header">
-                                <i class="ri-add-line questions__icon"></i>
-                                <h3 class="questions__item-title">
-                                    Forward
-                                </h3>
-                            </header>
 
-                            <div class="questions__content">
-                                <p class="questions__description">
-                                    Forwards by a certain amount in the current track. !forward, !fwd
-                                </p>
-                            </div>
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                 Forward
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Forwards by a certain amount in the current track. !forward, !fwd
+                            </p>
                         </div>
                     </div>
-
                     
                         <div class="questions__item">
                             <header class="questions__header">
@@ -379,7 +415,7 @@
             <p class="footer__copy">&#169; Elaina Dev. All rigths reserved</p>
         </footer>
             <!--=============== SCROLL REVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+            <script src="assets/js/scrollreveal.min.js"></script>
         
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
